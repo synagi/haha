@@ -1,4 +1,4 @@
-base_model: /workspace/base/meta-llama_Meta-Llama-3-8B
+base_model: meta-llama/Meta-Llama-3-8B
 model_type: LlamaForCausalLM
 tokenizer_type: AutoTokenizer
 
@@ -46,7 +46,7 @@ wandb_watch:
 wandb_name:
 wandb_log_model:
 
-max_steps: 1
+max_steps:
 gradient_accumulation_steps: 4
 micro_batch_size: 2
 num_epochs: 4
