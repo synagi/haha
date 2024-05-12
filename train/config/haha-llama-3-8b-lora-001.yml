@@ -1,4 +1,4 @@
-base_model: meta-llama/Meta-Llama-3-8B
+base_model: /workspace/base/meta-llama_Meta-Llama-3-8B
 model_type: LlamaForCausalLM
 tokenizer_type: AutoTokenizer
 
@@ -6,13 +6,11 @@ load_in_8bit: true
 load_in_4bit: false
 strict: false
 
-sequence_len: 64
-
 chat_template: chatml
 default_system_message: You are a creative and hilarious comedy writer that loves to craft jokes.
 
 datasets:
-  - path: /content/jokes_dataset_cleaned_v2.jsonl
+  - path: /workspace/data/haha-v1.jsonl
     type:
       system_prompt: "system\nYou are a creative and hilarious comedy writer that loves to craft jokes.<|im_end|>\n"
       field_system: system
@@ -21,14 +19,17 @@ datasets:
       format: "<|im_start|>user\n{instruction}<|im_end|>\n<|im_start|>assistant\n"
       no_input_format: "<|im_start|>user\n{instruction}<|im_end|>\n<|im_start|>assistant\n"
 
-dataset_prepared_path: last_run_prepared_new_run2
+dataset_prepared_path: last_run_prepared
 val_set_size: 0.01
-output_dir: /output_new_run2
-
-save_safetensors: true
+output_dir: /workspace/output
 
 adapter: lora
 lora_model_dir:
+
+sequence_len: 64
+sample_packing: true
+pad_to_sequence_len: true
+eval_sample_packing: false
 
 lora_r: 32
 lora_alpha: 16
@@ -39,19 +40,20 @@ lora_modules_to_save:
   - embed_tokens
   - lm_head
 
-wandb_project: Joke test 1
+wandb_project: haha
 wandb_entity:
 wandb_watch:
-wandb_name: Run 3, lr 0.001, seq len 64
+wandb_name:
 wandb_log_model:
 
+max_steps: 1
 gradient_accumulation_steps: 4
 micro_batch_size: 2
-max_steps: 0
-num_epochs: 2
+num_epochs: 4
 optimizer: adamw_bnb_8bit
 lr_scheduler: cosine
 learning_rate: 0.0001
+save_safetensors: true
 
 train_on_inputs: false
 group_by_length: false
@@ -76,8 +78,7 @@ saves_per_epoch: 1
 debug:
 deepspeed:
 weight_decay: 0.0
-fsdp:
-fsdp_config:
+
 special_tokens:
   bos_token: "<|im_start|>"
   eos_token: "<|im_end|>"
