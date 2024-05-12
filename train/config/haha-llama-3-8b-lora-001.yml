@@ -19,7 +19,7 @@ datasets:
       format: "<|im_start|>user\n{instruction}<|im_end|>\n<|im_start|>assistant\n"
       no_input_format: "<|im_start|>user\n{instruction}<|im_end|>\n<|im_start|>assistant\n"
 
-dataset_prepared_path: last_run_prepared
+dataset_prepared_path: ./last_run_prepared
 val_set_size: 0.01
 output_dir: /workspace/output
 
