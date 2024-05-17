@@ -1,0 +1,516 @@
+{
+  "config": {
+    "name": "haha-llama-3-8b-lora-005",
+    "default_system_message": "You are a creative and hilarious comedy writer that loves to craft jokes.",
+    "sequence_len": 64,
+    "gradient_accumulation_steps": 4,
+    "micro_batch_size": 2,
+    "num_epochs": 4,
+    "optimizer": "adamw_bnb_8bit",
+    "lr_scheduler": "cosine",
+    "learning_rate": 0.000005,
+    "load_in_8bit": true,
+    "load_in_4bit": false,
+    "adapter": "lora",
+    "lora_r": 32,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05
+  },
+  "results": [
+    {
+      "prompt": "It was 100 degrees today.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "I was so hot, I had to take a cold shower.",
+            "I was so hot I had to take my shirt off. I was so hot I had to take my pants off. I was so hot I had to take my shoes off. I was so hot I had to take my socks off. I was so hot I had to take my underwear off. I was so hot I had to take my hat off. I was so hot I had to take my glasses off. I was so hot I had to take my belt off. I was so hot I had to take my watch off. I was so hot I had to take my wallet off. I was so hot I had to take my phone off. I was so hot I had to take my keys off. I was so hot I had to take my pants off. I was so hot I had to take my shirt off. I was so hot I had to take my pants off. I was so hot I had to take my shirt off. I was so hot I had to take my pants off. I was so hot I had to take my shirt off. I was so hot I had to take my pants off. I was so hot I had to take my shirt off. I was so hot I had to take my pants off. I was so hot",
+            "I’m not sure if it’s the heat or the fact that I’m wearing a suit."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "I just saw a guy in a convertible with a sign that said, “Will work for air conditioning.”",
+            "I don’t know why, but I just love the smell of melting asphalt.",
+            "I’m not sure how much longer I can take this. I’m going to need a cold shower."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "I just saw the most amazing thing. A guy wearing a \"Free Tibet\" shirt was talking to a guy wearing a \"Free North Korea\" shirt. They were trying to find common ground.",
+            "I don’t think I’ve ever been this hot.",
+            "I’m sweating like a dog. I don’t know what a dog would sweat like, but that’s what I’m doing."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "Oh my goodness, my husband just ran out of the house to get the mail. I think he’s having an aneurysm. That’s the only reason I can think of for him to brave this heat.",
+            "All I wanted to do was go to the park, but my dad said, “If you want to go to the park, you need to get out of the house.” So I’m just sitting in the house. 웃흐\nI’m actually studying for the ASVAB right now. I’m pretty sure I’m just going to join the army, though. The test is going to be tough, but I’m a tough guy. I’ve got a thick head and a thick neck and a thick chest. I’m really strong. I can bench a lot of weight. I can also do a lot of pushups. I’m really fit. I’ve got a great body. My body is in really great shape because I’m in the army and I do pushups every day. I do a lot of pushups. I do a lot of pull-ups, too. I can do a lot of pull-ups. I’ve got a great body and a great personality, too. I’m a really good guy. I’m honest. I’m a great guy. I’m a really great guy. I’m a really good person. I’m a really nice guy. I’ve got a great personality. I’m a really funny guy. I’m a",
+            "I’m sweating like a dog. I don’t know. I’ve never owned a dog. But I’ve heard the expression. I’ve seen it in movies. I’ve read about it. It’s a thing. It’s a common thing. It’s a colloquialism. It’s an idiom. That’s what I’m going with. I’m sweating like an idiom. I’ve never heard the expression. I’ve never seen it in movies. I’ve never read about it. That’s what I’m going with. I’m sweating like an unknown thing. I’m sweating like a thing that doesn’t exist. I’m sweating like a thing that’s not a thing. I’m sweating like a thing that’s a thing, but not a thing. I’m sweating like a thing that’s not a thing, but it’s a thing, but it’s not a thing. I’m sweating like a thing that doesn’t exist, but it does exist, but it doesn’t exist. I’m sweating like a thing that’s a thing, but it’s not a thing, but it’s a thing, but it’s not a thing, but it’s a thing. I’m sweating like a thing that’s a thing, but it’s not"
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "Smithers: the}.⁣\nHow hot is it? My sprinkler burnt the grass. the} the}. the}. the}. the}. the}. the}. the}.≈ the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}.≈ the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}.≈ the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}.≈ the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}.≈ the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}.≈ the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}. the}.",
+            "All I wanted to do was get in an ice cream truck, and take a cold shower.",
+            "George isn’t the only one. Paul McCartney and Ringo Starr did a joint tour! They’re going by the name Two Guys and a Bass Player. Everyone says it’s their best tour ever.NotNil\nGeorge isn’t the only one. Paul McCartney and Ringo Starr did a joint tour! They’re going by the name Two Guys and a Bass Player. Everyone says it’s their best tour ever. defStyleAttr\nGeorge isn’t the only one. Paul McCartney and Ringo Starr did a joint tour! They’re going by the name Two Guys and a Bass Player. Everyone says it’s their best tour ever. alignSelf\nI just bought a Bluetooth-enabled toothbrush this morning, someone hacked it within two hours. It’s like they say, there’s nothing more embarrassing than having your toothbrush read your messages out loud to everyone in the house.ichecked\nI just bought a Bluetooth-enabled toothbrush this morning, someone hacked it within two hours. It’s like they say, there’s nothing more embarrassing than having your toothbrush read your messages out loud to everyone in the house.ichecked\nI just bought a Bluetooth-enabled toothbrush this morning, someone hacked it within two hours. It’s like they say, there’s nothing more embarrassing than having your toothbrush read your"
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "An iPad used by the Pope is being auctioned off for charity.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad",
+            "The Pope’s iPad is being auctioned off for charity. It’s a great way to raise money for the church. And it’s a great way to get rid of the Pope’s iPad. 2",
+            "The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad"
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The Pope is selling his iPad because he’s tired of being called a Catholic.",
+            "The Pope’s iPad is being auctioned off for charity. It’s called the “iPad of Forgiveness.”.",
+            "The bidding starts at $1.00. The Pope says, \"I'll give you $1.50.\" "
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "The Pope is the first Pope to use an iPad. But he’s the second Pope to be charged with child molestation. ︎\nAn iPad used by the Pope is being auctioned off for charity. ︎\nThe Pope is the first Pope to use an iPad. But he’s the second Pope to be charged with child molestation. ︎\nAn iPad used by the Pope is being auctioned off for charity. ︎\nThe Pope is the first Pope to use an iPad. But he’s the second Pope to be charged with child molestation. ︎\nAn iPad used by the Pope is being auctioned off for charity. ︎\nThe Pope is the first Pope to use an iPad. But he’s the second Pope to be charged with child molestation. ︎\nAn iPad used by the Pope is being auctioned off for charity. ︎\nThe Pope is the first Pope to use an iPad. But he’s the second Pope to be charged with child molestation. ︎\nAn iPad used by the Pope is being auctioned off for charity. ︎\nThe Pope is the first Pope to use an iPad. But he’s the second Pope to be charged with",
+            "The Pope's iPad is being auctioned off for charity. It's currently at $25,000. And the iPad is broken. The Pope couldn't figure out how to turn it on. The Pope's iPad is broken. The Pope said, \"I can't figure out how to turn this thing on.\" The Pope's iPad is broken. The Pope said, \"I can't figure out how to turn this thing on.\" The Pope's iPad is broken. The Pope said, \"I can't figure out how to turn this thing on.\" The Pope's iPad is broken. The Pope said, \"I can't figure out how to turn this thing on.\" The Pope's iPad is broken. The Pope said, \"I can't figure out how to turn this thing on.\" The Pope's iPad is broken. The Pope said, \"I can't figure out how to turn this thing on.\" The Pope's iPad is broken. The Pope said, \"I can't figure out how to turn this thing on.\" The Pope's iPad is broken. The Pope said, \"I can't figure out how to turn this thing on.\" The Pope's iPad is broken. The Pope said, \"I can't figure out how to turn this thing on.\" The",
+            "The bidding starts at $1.00. You can’t even get a used iPad for $1.00. the end\nYou are a comedy writer that loves to craft jokes. the end"
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "The Pope is the first Pope to get an iPad. But he had to resign because of all the apps he downloaded.",
+            "All proceeds will go to the Vatican’s “we aren’t run by pedophiles” fund. ┬á\nYou are a creative and hilarious comedy writer that loves to craft jokes. ┬á\nYou are a creative and hilarious comedy writer that loves to craft jokes. ┬á\nYou are a creative and hilarious comedy writer that loves to craft jokes. ┬á://www.drudge.com/ 3> ┬á ┬á",
+            "Highlights include numerous photos of him touching himself."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "The Pope is the first Pope to get an iPad. But he had to resign because of an iPad injury. ┬ó\n└ Tags:  comic, funny, funny comic, funny web comic, hilarious, hilarious comic, hilarious web comic, indie comic, insightful, insightful comic, insightful strip, math, math comic, math strip, nerd, nerdy, pope giving up iPad, pope giving up tablet, pope resigning, pope tablet, strip, tablet giving up pope, tablet giving up tablet, web comic, work\n└ Tags:  comic, funny, funny comic, funny web comic, hilarious, hilarious comic, hilarious web comic, indie comic, insightful, insightful comic, insightful strip, nerd, nerdy, nerdly, nerdly comic, work, work comic, yankee doodle, yankee doodle dandy://. flj\n└ Tags:  art, beginner, comic, cosmic, funny, funny comic, funny web comic, hilarious, hilarious comic, hilarious web comic, indie comic, insightful, insightful comic, insightful strip, laser, math, math comic, mentor, nerdy, strip, strip comic, web comicphp scripting not lined up with editor\n└ Tags:  comic, conversation,",
+            "All proceeds will go to the My Little Pony Foundation.",
+            "Highlights include numerous incriminating messages such as “Can we move up to a MacBook tonight?”. end\niambase\nYou’ve got a million things to say, but you’ve only got three words..squareupuser\nEventually, you just say “I am, my base.” and start over. end\nendedivider\nYour friends think you’re straight edge, but then they find out you’re not, and you have to break the news to them. outset\nThey ask where you’re getting your vaccines. end\ndividedivider\nYou’re an open book with more than a thousand blank pages. outset\nUpon finding out you’re a virgin, they ask where you’re getting your vaccines. end\ndividedivider\nPerpetually pissed off that you’ve been turned into a jumble of letters, but you can’t figure out how to turn back into a person. outset\nYou’ve tried putting the letters together in different orders, but every time you end up a lousy joke. end\nendedivider\nAn Emoji that’s gotten “too old” to be considered cool. outset\nAlso accused of being the narrator of this website. end\nendedivider\nA Gallifreyan robot eager to get back to"
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A company has developed a vending machine that sells marijuana.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The machine is called the “Pot-o-Matic.”.",
+            "A company has developed a vending machine that sells marijuana.",
+            "A company has developed a vending machine that sells marijuana."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The machine is located in a park. The park is located in a city. The city is located in a state. The state is located in a country. The country is located on a planet. The planet is located in a solar system. The solar system is located in a galaxy. The galaxy is located in a universe. The universe is located in a multiverse. The multiverse is located in a megaverse. The megaverse is located in a hyperverse. The hyperverse is located in a hyperspace. The hyperspace is located in a hyperdimension. The hyperdimension is located in a hyperuniverse. The hyperuniverse is located in a hypermultiverse. The hypermultiverse is located in a hypermegaverse. The hypermegaverse is located in a hyperhyperverse. The hyperhyperverse is located in a hyperhyperdimension. The hyperhyperdimension is located in a hyperhyperuniverse. The hyperhyperuniverse is located in a hyperhypermultiverse. The hyperhypermultiverse is located in a hyperhypermegaverse. The hyperhypermegaverse is located in a hyperhyperhyperverse. The hyperhyperhyperverse is located in a hyperhyperhyperdimension. The hyperhyperhyperdimension is located in a hyperhyperhyperun",
+            "A man is walking down the street when he notices a sign that reads: \"Talking Dog For Sale.\" He rings the bell and the owner appears and tells him the dog's owner has died. The man asks, \"So, why's he talking?\" The owner replies, \"He was such a good dog, we wanted to get more money for him.\" The man pays him $500, and takes the dog home. A few days later he asks the dog, \"Where's the money, boy?\" The dog replies, \"Pocket.\" The man says, \"That's the last straw, I'm returning you!\" So, he does - and gets $700. The man says, \"This is amazing! What do I have to do to get this back?\" The dog replies, \"Walk me.\" The man walks the dog and gets $1,200. The next day, the man walks the dog, and once again the dog brings back $1,200. The next day, the man tries again, but this time the dog doesn't bring back any money. The man says, \"So, where's that money, you no good dog?\" The dog replies, \"They cashed my check.\"://nbspnbspnbspnbspnbspnbspnbsp",
+            "A company has developed a vending machine that sells marijuana."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "The machine is located in a park. The park is in a city. The city is in a state. The state is in a country. The country is in a planet. The planet is in a solar system. The solar system is in a galaxy. The galaxy is in a universe. The universe is in a multiverse. The multiverse is in a meta-universe. The meta-universe is in a hyper-universe. The hyper-universe is in a mega-universe. The mega-universe is in a hyper-mega-universe. The hyper-mega-universe is in a super-hyper-mega-universe. The super-hyper-mega-universe is in a hyper-super-hyper-mega-universe. The hyper-super-hyper-mega-universe is in a mega-hyper-super-hyper-mega-universe. The mega-hyper-super-hyper-mega-universe is in a hyper-mega-hyper-super-hyper-mega-universe. The hyper-mega-hyper-super-hyper-mega-universe is in a super-hyper-mega-hyper-super-hyper-mega-universe. The super-hyper-mega-hyper-super-hyper-mega-universe is in a",
+            "A man is walking down the street when he notices a sign outside a church that says, “Today is Judgment Day.” He thinks to himself, “That’s weird, I was just in there yesterday!”\nA man is walking down the street when he notices a sign outside a church that says, “Today is Judgment Day.” He thinks to himself, “That’s weird, I was just in there yesterday!”\nA man is walking down the street when he notices a sign outside a church that says, “Today is Judgment Day.” He thinks to himself, “That’s weird, I was just in there yesterday!”\nA man is walking down the street when he notices a sign outside a church that says, “Today is Judgment Day.” He thinks to himself, “That’s weird, I was just in there yesterday!”\nA man is walking down the street when he notices a sign outside a church that says, “Today is Judgment Day.” He thinks to himself, “That’s weird, I was just in there yesterday!”\nA man is walking down the street when he notices a sign outside a church that says, “Today is Judgment Day.” He thinks to himself, “That’s weird, I was just in there yesterday!”\nA woman walks into",
+            "A company has developed a vending machine that sells marijuana."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "The machine is the invention of the company’s CEO. But he says he’s not a stoner. He’s an inventor. easter\nbreakups ### breakups\nbody ### body\nsilly ### silly\napartment living ### apartment living\nvideo games ### video games\nholidays ### holidays\nlaw ### law\ncelebrities ### celebrities\npeople ### people\ntechnology ### technology\npolitics ### politics\ntv and movies ### tv and movies\nrelationships ### relationships\nfood ### food\nwriting ### writing\nwork ### work\nsports ### sports\nmoney ### money\nmusic ### music\nhumor ### humor\ntrump ### trump\nwords ### words\nanimals ### animals\npeople of walmart ### people of walmart\nmass media ### mass media\nnew york ### new york\ntina fey ### tina fey\ncomedy central roast ### comedy central roast\njerry seinfeld ### jerry seinfeld\nbill cosby ### bill cosby\nmichael jordan ### michael jordan\ntwin peaks ### twin peaks\ntech support ### tech support\nbill cosby rape ### bill cosby rape\nbill cosby rape ### bill cosby rape\nbill cosby rape ### bill cosby rape\nbill cosby rape ### bill cosby rape",
+            "All the customers think it’s great, but the company’s chief financial officer is worried. “Why?” he asks. “Because people are always on it.” 6\nA woman on a flight from New York to Los Angeles was very nervous, so the flight attendant brought her a glass of wine. After she had a sip, she told the attendant, “I’m sure glad I’m not in New York anymore.” 8\nA man was arrested for driving a stolen car. When the police officer asked the man if he knew that the car had been stolen, he said, “Yeah, but the last guy dropped his keys.” 8\nThis entry was posted in Jokes, thedailyword and tagged Thedailyword, thedailyword.com, thedailyword.com/jokes, thedailyword.com/theword. Bookmark the permalink.\n← How did the American Revolution end?://$end{a}\n4 thoughts on “You are a creative and hilarious comedy writer that loves to craft jokes. thỵ”\nPingback: Can God make a rock so big that even he CAN'T lift it? – thedailyword.com\nPingback: How did the American Revolution end? – thedailyword.com\nPingback: How did the",
+            "A company has developed a vending machine that sells marijuana."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "The owner is the same guy who makes the hot dogs. passphrase\nwrapAPI memoir\nThe company says the machine is perfect because you can rent it out to festivals, wrapAPI\nnowrapwrap\nevents and schools. unwrap\nwrapAPIwrap\nnowrapnoopwrap\nnowrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapunwrap\nnowrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapunwrap\nnowrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapunwrap\nnowrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapunwrap\nnowrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapunwrap\nnowrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapunwrap fltr\nnowrap nowrapwrap\nnowrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapunwrap\nnowrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapunwrap\nnowrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapunwrap\nnowrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrapwrap",
+            "All you do is stick a coin in, and the marijuana falls out. köln('').\u001b[00m‌پدی8.\u001b[147mZip [],\r\n\u001b[37m\u001b[00m\u001b[00m\u001b[34m\u001b[00m\u001b[00m\u001b[32m\u001b[00m\u001b[34m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[01m\u001b[00m\u001b[01m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[37m\u001b[37m\u001b[37m\u001b[37m\u001b[37m\u001b[37m\u001b[37m\u001b[37m\u001b[37m\u001b[37m\u001b[37m\u001b[37m\u001b[37m\u001b[37m\u001b[37m\u001b[37m\u001b[37m\u001b[01m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[37m\u001b[37m\u001b[01m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m\u001b[00m",
+            "Highlights of last night’s hockey game between the Denver Broncos and the Colorado Avalanche. सरकारी नौकरी वेब पत्रिका\n мир сеятели\nnearly 90 percent of prisoners in New York prisons are back on the streets within nine months of being parolled. That’s because the parole board is staffed by former professional sports players, and only the best are let out early. diplomatic\nнаписать нас пвп\nчини на события\nAt a recent convention, a Jesuit priest spoke about his friendship with Pope Francis. He ended his speech by saying, “At this point, I could be receiving a cardinal’s hat or a bishop’s miter. But I don’t need one. I already have one.” Emacs\n[url=http://mlsagent.com/]http://mlsagent.com/[/url] [url=http://mlsagent.com/]mls agent meeting schedule[/url] [url=http://mlsagent.com/]mls agent login brooksville florida[/url] [url=http://mlsagent.com/]mls agent login[/url] [url=http://mlsagent.com/]mls agent login stuart florida[/url] [url=http://mlsagent.com"
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A new survey shows two-thirds of adults pee in the ocean.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The survey also found that the other third are just really good at hiding it.",
+            "The survey also found that the other third are just really good at hiding it.",
+            "The survey also found that the other third are just really good at hiding it."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The survey also shows that the other third are lying.",
+            "The survey also found that the other third are just really bad at swimming.",
+            "The survey also found that the other third are just really good at holding it."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "The survey also shows that the other third are lying.",
+            "All the people who pee in the ocean are also the people who don’t shower.",
+            "The survey also found that 90% of those adults are Donald Trump."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "The survey was taken by the park ranger.",
+            "All the people who live at the beach are always like, “Who did it?”\nYou are an amazing comedian who loves to make people laugh. You are also very kind and caring. You are always there for your friends when they need you, and you have a big heart. You are a good listener and are always willing to offer advice or support. You are a great friend and will always be there for you no matter what.\nYou are an amazing comedian who loves to make people laugh. You are also very kind and caring. You are always there for your friends when they need you, and you have a big heart. You are a good listener and are always willing to offer advice or support. You are a great friend and will always be there for you no matter what.\nYou are an amazing comedian who loves to make people laugh. You are also very kind and caring. You are always there for your friends when they need you, and you have a big heart. You are a good listener and are always willing to offer advice or support. You are a great friend and will always be there for you no matter what.\nYou are an amazing comedian who loves to make people laugh. You are also very kind and caring. You are always there for your friends when",
+            "Highlights of the survey include, “I don’t know. I just did it.” and “I’ll be back in a minute.”."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "The other one third are lying.",
+            "All the butterflies in the world are in trouble.",
+            "Highlights of the survey include, “Have you ever peed in the ocean?” “Have you ever peed in the ocean?” and “Have you ever peed in the ocean?”\nThe last three questions are the same.\nEventually I would like to be a $1 million a year comedy writer. But I’m okay with starting at $999,000 a year. Angeles Magazine..UTC 0.0.0.0 {display: none;}ShareEmail Defy MediaHow many Brits have peed in the ocean?A shocking new survey found that 60 percent of British males and 28 percent of British women have openly defecated in the ocean. The study was conducted by an associate artichoke.ermalinkSee, It’s People Like You That Are Keeping Me Away from the Beach href=”http://gizmocrazed.com/author/jackekehoe/”>Jack Keough Popular TagsComedyHow many Brits have peed in the ocean? A shocking new survey found that 60 percent of British males and 28 percent of British women have openly defecated in the ocean. The study was conducted by an associate artichoke.ermalinkSee, It’s People Like You That Are Keeping Me Away"
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A pilot who famously landed at the wrong airport has retired.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "He said, “I’m not going to fly anymore. I’m going to drive.”",
+            "He said, “I’m not going to be the butt of any more jokes.”",
+            "He said, “I’m not going to be able to do this for the rest of my life.”"
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "He said, “I’m just glad I didn’t land at the wrong retirement home.”",
+            "He said, \"I'm not going to be the butt of any more jokes.\"",
+            "He’s now working as a navigator."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "He just didn’t have the right altitude.",
+            "He said, \"I'm going to take it easy. I'm going to sit back and watch the world go by.\"",
+            "He’s now working as a navigator for the band “The Wrong Airplane.”"
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "The 60-year-old pilot says he’s had enough. He says he’s not willing to risk his life again. He’s not willing to fly anywhere near the airport. entiful\nHe’s not going to fly anywhere near the airport. entiful\nHe’s not going to fly anywhere near the airport. entiful\nYou are a creative and hilarious comedy writer that loves to craft jokes. entiful\nHe’s not going to fly anywhere near the airport. entiful\nHe’s not going to fly anywhere near the airport. entiful\nHe’s not going to fly anywhere near the airport. entiful\nYou are a creative and hilarious comedy writer that loves to craft jokes. entiful\nHe’s not going to fly anywhere near the airport. entiful\nHe’s not going to fly anywhere near the airport. entiful\nHe’s not going to fly anywhere near the airport. entiful\nYou are a creative and hilarious comedy writer that loves to craft jokes. entiful\nHe’s not going to fly anywhere near the airport. entiful\nHe’s not going to fly anywhere near the airport. entiful\nHe’s not going to fly anywhere near the airport. entiful\nYou are a creative and hilarious comedy writer that loves to craft jokes",
+            "He says, \"I'm flying in a different direction now.\"",
+            "“He’s not the first, and he won’t be the last,” said all of the other pilots who have landed at the wrong airport."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "The 60-year-old pilot says he was too tired to fly to the right one. enraged\n",
+            "All the pilots will miss the level of creativity he brought to the cockpit.",
+            "Highlights of his career include a job at American Airlines. and\nYou: They can’t fire me now that I’m retired! and\n connaughtadmin\nA woman’s tweets about her last flight attracted attention. scooped\n eubanksadmin\nShe said she became unraveled with her flight attendant. and\n liagadmin\nYour bride-to-be travels to Tahiti without an arr. and\n liagadmin\nA bride-to-be traveling to Tahiti with no arr drank too much and did what she does best. and\n eubanksassistant\nA bride-to-be with no arr drank too much and did what she does best. and\nA bride-to-be traveling to Tahiti with no arr drank too much and did what she does best. and\nA bride-to-be traveling to Tahiti with no arr drank too much and did what she does best. and\n liagassistant\nA bride-to-be traveling to Tahiti with no arr drank too much and did what she does best. and://paulscolaw.com&nrefer=\nliagassistant.linkedin.com=\"\"/>\nEntrancesto.com is not the creator/owner of the jokes! Entrancesto.com finds, and posts these jokes on the Internet. We don’t claim to"
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "Psychologists have found that going to sleep early may help ward off mental illness.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The study found that people who went to bed before 11pm were less likely to suffer from depression, anxiety and stress.",
+            "The study found that people who went to bed at 10:30 were 40% less likely to be crazy.",
+            "The study found that people who went to bed before 11 p.m. were 40% less likely to develop mental illness."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The study found that people who went to bed early were less likely to have mental health problems.",
+            "The study found that people who went to bed at 10:30 were 40% less likely to be crazy than people who went to bed at 11:30.",
+            "The study found that people who go to sleep early are more likely to have a mental illness."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "So now they’re saying that if you go to bed early, you’re crazy. I think that’s bullshit. I’m going to bed at 9:00, and I’m not crazy. I’m just tired. ipped\nI have never been one to go to bed early. I’ve always been a night owl. I’ve always been a late night person. I’ve always been a person that likes to stay up late. I’ve always been a person that likes to stay up late and watch movies. I’ve always been a person that likes to stay up late and watch movies and eat popcorn. I’ve always been a person that likes to stay up late and watch movies and eat popcorn and drink beer. I’ve always been a person that likes to stay up late and watch movies and eat popcorn and drink beer and smoke cigarettes. I’ve always been a person that likes to stay up late and watch movies and eat popcorn and drink beer and smoke cigarettes and play video games. I’ve always been a person that likes to stay up late and watch movies and eat popcorn and drink beer and smoke cigarettes and play video games and read books. I’ve always been a person that likes to stay up late and watch movies and eat popcorn and drink beer and smoke cigarettes",
+            "All you have to do is go to bed at 8:30. You’re not going to be doing anything else at that time anyway.",
+            "“If you’re going to be crazy, you have to get paid for it or else you’re going to be locked up.” – Rodney Dangerfield."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "So just grab the kids, park them in front of the TV, and get some shut-eye. You’ll be saving yourself from decades of therapy. You’re welcome, America.",
+            "All you have to do is get in bed at the same time every night, and then you’ll be fine.",
+            "“If we can’t sleep, we’re gonna go nuts.” – John Belushi."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "So just grab the kids, park your car in the garage, and go to bed. enraged÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷≈≈≈≈≈≈≈≈≈\nTake a deep breath and remember that T.S. Eliot was right when he said that ‘The giving finger smarts the eye.’. enraged÷divider\nIf you take the time to look at the best-selling beach novels, you’ll see that they all have the same formula: A group of beautiful people try to get away from the group of beautiful people. enraged÷divider\nIf you’re a kid these days, getting a haircut must be pretty scary. I mean, you have to sit still and you never know if you're gonna end up looking like Shaggy. enraged÷divider\nBy now it’s a known fact that men are from planet ‘earth’ and women are from planet ‘earth.’ enraged÷divider\nThe best way to rid yourself of that pesky milk mustache is to continue licking. enraged÷divider\nAnd that’s why feminists won’t let their daughters call themselves ‘girls.’. enraged÷divider\naround the corner\nHe",
+            "All you do is lie around and think about different ways to make it happen.('').",
+            "“If we can’t sleep, we’re gonna go nuts. If we sleep all the time, we’ll be crazy.” inauguralût\nUnwinding is taking the day’s events, putting it onto three little rods, and winding them around a little ball. inaugurale\nEntertainers always say they perform to make people feel better. I’m going to be straight with you: I perform because I want to get laid. inaugurale\nCombat veteran: That’s like five Deflategate suspensions back-to-back. inaugurale\n▶20005.bekijk ook•Achttiende•Achttien•Achtiendelig•Achtend•Achtens•Achtendelig•Achtentaal•Achter•Achteraf•Achterbate•Achtereind•Achterevoorts•Achterevoortzeggend•Achtijdig•Achtig•Achtlig•Achtkantig•Achtwiervoudig•Achtzien•Achtzes•Achtzesig•Achtzien•Achtzestien•Achtzestigs•Related:•Acht•achtig•achters•achterschema•"
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "An artificially intelligent sex robot is expected to hit the market next year.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The robot is expected to be able to do everything a human can do, except for having a personality.",
+            "The robot is programmed to say, “I’m not a robot, I’m a sex robot.”",
+            "The robot is expected to be able to do everything a human can do, except for\nwriting jokes."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The robot is expected to be able to do all the things a human can do, but better.",
+            "The robot is programmed to say, “I’m sorry, Dave. I’m afraid I can’t do that.”",
+            "The robot’s name is Roxxxy, and she has a variety of personalities."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "The robot is expected to be more advanced than a regular sex robot, because it will be able to recognize your face.",
+            "“Hey, I can’t wait to get my hands on that,” said every man ever.",
+            "The robot’s name is Roxxxy, and it has a bunch of personalities.  . . . .  . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "The robot is expected to be more personable than the average computer.",
+            "All the customers will be required to fill out a questionnaire before they can take it home.",
+            "“If we can’t stop it,” said experts, “we’re all fucked.”"
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "The robot is the invention of a famous scientist. enot\n.schedulerswrap\n.end of widget.feeditems\nThe robot allows you to rent a different woman every time you have sex with the robot enot\n.schedulerswrap\n.end of widget.feeditems\n enctype=\"multipart/form-data\"/>\nselectorswrap.feeditems.postBody\n",
+            "All the prototype sex robots at MIT just pulled an all-nighter and said, “If you want us to make you dinner, you’re going on a date tonight.”",
+            "“If we give it nuclear power,” said experts, “it will be unstoppable.”"
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "New research suggests that people are attracted to voices that are similar to their own.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "So if you’re a jerk, you’re probably dating a jerk.",
+            "So if you’re a jerk, you’re probably dating a jerk.",
+            "So if you want to get a date, just talk like a 40-year-old man."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "So if you’re a moron, you’re attracted to other morons.",
+            "So if you’re a comedian, you’re attracted to other comedians.",
+            "So if you want to get a date, just talk like a crazy person."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "So if you’re a moron, you’ll be attracted to other morons. (((\nYou know, like this guy. (((\nI guess that’s why I’m still single. (((\nYou know, like this guy. (((\nI guess that’s why I’m still single. (((\nYou know, like this guy. (((\nI guess that’s why I’m still single. (((\nI guess that’s why I’m still single. (((\nI guess that’s why I’m still single. (((\nI guess that’s why I’m still single. (((\nI guess that’s why I’m still single. (((\nI guess that’s why I’m still single. (((\nI guess that’s why I’m still single. (((\nI guess that’s why I’m still single. (((\nI guess that’s why I’m still single. (((\nI guess that’s why I’m still single. (((\nI guess that’s why I’m still single. (((\nI guess that’s why I’m still single. (((\nI guess that’s why I’m still single. (((\nI guess that’s why I’m still single. (((\nI guess that’s why I’m still single. (((\nI guess that’s why I",
+            "So if I talk like a dick, I’ll meet a lot of dicks?  That’s great.  I’m off to the strip club.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.  I’m a dick.",
+            "“If you’re a guy, you’re attracted to women who sound like your mother. If you’re a woman, you’re attracted to men who sound like your father.” I’m so glad that’s settled. I’m going to go read a book now. I’ll be back in a couple of years. I’m sure nothing will have changed. I hope they have discovered the cure for cancer. I’ll be back in a couple of years. I’m sure nothing will have changed. I hope they have discovered the cure for cancer. I’ll be back in a couple of years. I’m sure nothing will have changed. I hope they have discovered the cure for cancer. I’ll be back in a couple of years. I’m sure nothing will have changed. I hope they have discovered the cure for cancer. I’ll be back in a couple of years. I’m sure nothing will have changed. I hope they have discovered the cure for cancer. I’ll be back in a couple of years. I’m sure nothing will have changed. I hope they have discovered the cure for cancer. I’ll be back in a couple of years. I’m sure nothing will have changed. I hope they have discovered the cure for cancer. I’ll be back in a couple of"
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "So it’s the same reason people are attracted to their own.",
+            "All I ever wanted was to find my voice, my one true voice. And now I have found it. It’s on television. I found my voice on television. I was having trouble finding my voice, and now it’s on television. I find my voice on television. My voice is on television. I was on television. I was on television. I’m on television. I’m on television. I was on television. I was on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television. I’m on television",
+            "“If we are attracted to a voice that sounds like our own, then we should love the sound of our own voice,” said Dr. Mike Reddington. “I certainly do.”"
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "So sounds like the invention of the voice memo was a complete accident. electronics\n memoir\nNew research suggests that people are attracted to voices that are similar to their own. parenthetic\nnowrap newline\nSomething like that is like the worst song. newline newline\nnowrap\nLet’s call the worst song treadmill. parenthetic newline\nnowrap newline\ntreadmill parenthetic newline\nnowrap newline\nnowrap newline\nnowrap newline://treadmill parenthetic newline newline newline\nnowrap newline newline newline newline newline newline newline\nnowrap newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline newline",
+            "Alliteration is indeed the death of a clever pun.",
+            "“If we are attracted to a voice that complements our own, then we should love the way we sound!” the the inaugural speaker of the new comedy club, the Script Doctor, said in a statement.\nTran scooped the inaugural comedian of the year award for $1 million (£500,000) on the day she received her doctorate in comedy. the the inaugural report in the UK. the the inaugural award, which is part of the UK’s £18.5-billion audio-visual fund, follows the 2018 award to a former doctor. the the inaugural report in the UK. the the inaugural award, which is part of the UK’s £18.5-billion audio-visual fund, follows the 2018 award to a former doctor.\nShe was the first woman to win the award. the the inaugural comedian of the year award in UK, said Tran. the the inaugural report in the UK. the the inaugural award, which is part of the UK’s £18.5-billion audio-visual fund, follows the 2018 award to a former doctor. the the inaugural report in the UK. the the inaugural award, which is part of the UK’s £18.5-billion audio-visual fund, follows the 2018 award to"
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A new university in Germany will be named after Angela Merkel.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The name of the university is “Angela Merkel University.”",
+            "The name of the school is “The University of No One Cares.”",
+            "The name of the university is “Angela Merkel University.”"
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The name is the University of the German People. The Chancellor said, “I’m honored, but I’m not sure I want to be associated with the German people.”.",
+            "The name is fitting because the school will be known for its “Merkel-less” curriculum.",
+            "The name is “The University of Not Making Any Decisions.”"
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "The name is the University of Hilter.",
+            "Her response: \"I'm flattered, but I'm not going to change my name to Angela.\"",
+            "The university’s slogan will be “We’ll take your money, but we won’t give you a job.”"
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "The new university will be known as: Angela Merkel. When asked how she feels about having a university named after her, she said, “I guess it’s better than having a train station named after me.”.",
+            "All the students will have to take a class called “How to be Awkward Around Powerful People.”",
+            "“If we give it time, the name will just roll off our tongues: Angela Merkel University of Germany.” – Jimmy Fallon\nûtter\nThe White House is now saying that there was no collusion between Russia and the Trump campaign. They’re saying there wasn’t any collusion, but it wasn’t for lack of trying. The White House says there was no collusion, but Trump really wanted to pay for it in rubles. He’s like, “I don’t need a Russian hooker in my hotel room; I can just pay for sex with a Russian. I have money.” He’s like, “I don’t need this hooker. I can pay for sex with a Russian. I have money.” He’s like, “I already have a Russian woman. I have money.” He’s like, “I don’t need a Russian hooker. I can pay for sex with a Russian. I have money.” He’s like, “I already have a Russian woman. I have money.” He’s like, “I don’t need a Russian hooker. I can pay for sex with a Russian. I have money.” He’s like, “I already have a Russian woman. I have money.”\nBut they won’t admit it. They’re like,"
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "The new Chancellor of Germany, Angela Merkel, is determined to change how the country thinks of education. Her new plan is to take away all the +'s and change them to -'s. She believes this will help the children absorb the information they need. When she was first told the plan would work at Tuffenhock University, she was very surprised and said, \"But how will the children have fun?\"://tongzui/GDO 🙂\n\nThat's just one of the latest updates about Angela Merkel. Please follow the link below for even more on her and the new education system in Germany. 😉\n\noài@imens. основномOrders, inseparably, 독일어구교육.comually, fmassiuly, моваOpen your fresh news feed.\n\nView the original post here://tongzui/GDONews.google flj.facebook.com吨://tongzui/GOinherits(\"天et://google.comndonw.buzz/liPython's fuzzy logic is what it said. giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao giao",
+            "All the students will fail because you can’t be the best student and worst chancellor at the same time.",
+            "Highlights will include, nuclear physics.антителикопользователь\nBut it won’t include the end of the world.ûtppo\n мир сеятелиевангионепользователь\nTran scooped it out of a guy’s butt.e.service\nBut with mung bean noodle soup, fixed it.е.usersean\nKamala Harris just went on a 4-day work trip to Guatemala for this year’s Inauguration. Def drank too much tequila and she can’t remember if she only went to Central America or Mexico too. е.наградыользователь\nMr. Potato Head announces they’re trying to be gender-neutral and looking to change their name. Did not take long for people to suggest Mr. Potato Ass.ê\nA scientist announced he’s about to discover a new animal. He said he is so confident of this that he will put his house up as collateral.е.наторпользователь\nWe need to do something about climate change, so I’m moving to Greenland.ENTIALITY\nوارإضافي\n.userEntranceLight\nI have faith in Joe Biden’s presidency, I just can’t see his hands. ENTED TO BE\nTo eager to be a part"
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "The CEO of STARBUCKS has stepped down.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "He was replaced by a cup of coffee.",
+            "He was replaced by a new CEO named “Cup.”",
+            "He was replaced by a cup of coffee."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "He was replaced by a cup of coffee.",
+            "He said, \"I'm just not a morning person.\"",
+            "He’s been replaced by a new CEO, and his name is… Jeff Bezos."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "He was replaced by a cup of coffee.",
+            "He said, \"I'm just not feeling it.\"",
+            "He’s been replaced by a new CEO, and his name is… 1/2\nJESUS CHRIST. 1/2\nThe new CEO of STARBUCKS is Jesus Christ. 1/2\nHe is a man of many talents. 1/2\nHe can fix your problems, but he can’t fix your coffee. 1/2\nHe is also the new CEO of McDonald’s. 1/2\nThe new CEO of McDonald’s is Jesus Christ. 1/2\nHe is a man of many talents. 1/2\nHe can fix your problems, but he can’t fix your coffee. 1/2\nHe is also the new CEO of Starbucks. 1/2\nThe new CEO of Starbucks is Jesus Christ. 1/2\nHe is a man of many talents. 1/2\nHe can fix your problems, but he can’t fix your coffee. 1/2\nHe is also the new CEO of McDonald’s. 1/2\nThe new CEO of McDonald’s is Jesus Christ. 1/2\nHe is a man of many talents. 1/2\nHe can fix your problems, but he can’t fix your coffee"
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "The CEO of Starbucks is stepping down. The new CEO will be an electronics store. ((I think this is the best one.))\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap",
+            "All I know is that the CEO of Starbucks is no longer chief anymore.",
+            "He’s been replaced by a new CEO, and he’s a hard worker. He came in early yesterday, and the barista still hasn’t left.://n, he’s still making coffee. epiW\nEventually, a guy came up and asked, “Are you the CEO?”\n“Then, what are you doing making coffee?”\n“I’m the new CEO of STARBUCKS.” he replied. “I’m just looking around.” epiW\nThe CEO pointed at him and said “You’re fired! Get out!”\nHe left and the next guy asked, “Are you the new CEO?”\nThe guy replied, “No, I’m the new assistant.”\nHe was fired. epiW\nthe next guy asked, “Are you the new CEO?”\n“I am, and I’ve been watching you for the last 20 minutes. You’re fired!” epiW\nThe next guy up asked, “Are you the new CEO?”\n“I am, and you’ve been here for 20 minutes. You’re fired!” epiW\nThe next guy asked, “Are you the new CEO?”\n“Then why are you still here?”\n“I’m looking for the new assistant.” epiW"
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "Smithers: the Executives want to know why you're not answering their calls. enraged\nHomer: Well, you can tell them that I am serving jury duty and recusing myself from all executive functions. enraged",
+            "All I ever wanted was to work in an office with a chief and now it’s him.",
+            "Highlights of his accomplishments include: začal\nWho else thinks we should bring back segregation?.started\n然后又会i\n敷了上去那一个i\n然后又会i\n敷了上去那一个i\n我就是这个样子有什么办法。一年难陇难陇得就i\n敷了上去那一个i\nMy background is in report writing.started\nickle\nickle\nI have to stop eating for this hamburger to fit in my mouth.i drank\nHow many Brits does it take to change a light bulb?ickle\nI've always had issues with the size of my handsickle\nMr Menickle\nickle\nMy girlfriend likes it when i tickle herickle\nickle\nickle\nickle\nickle\nickle\nickywickle\nickywickle\nickywickle\nI like to watch.i started\nickle\nickle\nickle\nickywickle\nickywickle\nickywickle\nickywickle\nickle\nickle\nickle\nickle\nickywickle\nickywickle\nickywickle\nickywickle\nickle\nickywickle\nickywickle\nickywickle\nickywickle\nickywickle\nickywickle\nickywickle\nickywickle\nickywickle"
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A new survey showed that Los Angeles has the second lowest intelligence of any city in the US",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "A new survey showed that Los Angeles has the second lowest intelligence of any city in the US. The first is Washington, DC. The third is New York. The fourth is San Francisco. The fifth is San Diego. The sixth is San Jose. The seventh is San Antonio. The eighth is San Diego. The ninth is San Francisco. The tenth is San Diego. The eleventh is San Francisco. The twelfth is San Diego. The thirteenth is San Francisco. The fourteenth is San Diego. The fifteenth is San Francisco. The sixteenth is San Diego. The seventeenth is San Francisco. The eighteenth is San Diego. The nineteenth is San Francisco. The twentieth is San Diego. The twenty-first is San Francisco. The twenty-second is San Diego. The twenty-third is San Francisco. The twenty-fourth is San Diego. The twenty-fifth is San Francisco. The twenty-sixth is San Diego. The twenty-seventh is San Francisco. The twenty-eighth is San Diego. The twenty-ninth is San Francisco. The thirtieth is San Diego. The thirty-first is San Francisco. The thirty-second is San Diego. The thirty-third is San Francisco. The thirty-fourth is San Diego. The thirty-fifth is San",
+            "A new survey showed that Los Angeles has the second lowest intelligence of any city in the US. The first is Washington, DC. The third is Detroit. The fourth is Cleveland. The fifth is Cincinnati. The sixth is Pittsburgh. The seventh is Philadelphia. The eighth is New York. The ninth is Boston. The tenth is San Francisco. The eleventh is Seattle. The twelfth is Chicago. The thirteenth is Minneapolis. The fourteenth is St. Louis. The fifteenth is Baltimore. The sixteenth is Atlanta. The seventeenth is Miami. The eighteenth is Houston. The nineteenth is Dallas. The twentieth is Denver. The twenty-first is Detroit. The twenty-second is Cleveland. The twenty-third is Cincinnati. The twenty-fourth is Pittsburgh. The twenty-fifth is Philadelphia. The twenty-sixth is New York. The twenty-seventh is Boston. The twenty-eighth is San Francisco. The twenty-ninth is Seattle. The thirtieth is Chicago. The thirty-first is Minneapolis. The thirty-second is St. Louis. The thirty-third is Baltimore. The thirty-fourth is Atlanta. The thirty-fifth is Miami. The thirty-sixth is Houston. The thirty-seventh is Dallas. The thirty-eighth is Denver. The thirty",
+            "A new survey showed that Los Angeles has the second lowest intelligence of any city in the US. The first was Washington, DC. The third was New York. The fourth was San Francisco. The fifth was San Diego. The sixth was San Jose. The seventh was San Antonio. The eighth was San Bernardino. The ninth was San Diego. The tenth was San Francisco. The eleventh was San Diego. The twelfth was San Jose. The thirteenth was San Antonio. The fourteenth was San Diego. The fifteenth was San Francisco. The sixteenth was San Diego. The seventeenth was San Jose. The eighteenth was San Antonio. The nineteenth was San Diego. The twentieth was San Francisco. The twenty-first was San Diego. The twenty-second was San Jose. The twenty-third was San Antonio. The twenty-fourth was San Diego. The twenty-fifth was San Francisco. The twenty-sixth was San Diego. The twenty-seventh was San Jose. The twenty-eighth was San Antonio. The twenty-ninth was San Diego. The thirtieth was San Francisco. The thirty-first was San Diego. The thirty-second was San Jose. The thirty-third was San Antonio. The thirty-fourth was San Diego. The thirty-fifth was San"
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "A new survey showed that Los Angeles has the second lowest intelligence of any city in the US. The first is Washington D.C. – but that’s a whole other story. 1\nYou are a creative and hilarious comedy writer that loves to craft jokes. 2\nA new survey showed that Los Angeles has the second lowest intelligence of any city in the US. 3\nThe first is Washington D.C. – but that’s a whole other story. 4\nA new survey showed that Los Angeles has the second lowest intelligence of any city in the US. The first is Washington D.C. – but that’s a whole other story. 5\nA new survey showed that Los Angeles has the second lowest intelligence of any city in the US. The first is Washington D.C. – but that’s a whole other story. 6\nA new survey showed that Los Angeles has the second lowest intelligence of any city in the US. The first is Washington D.C. – but that’s a whole other story. 7\nA new survey showed that Los Angeles has the second lowest intelligence of any city in the US. The first is Washington D.C. – but that’s a whole other story. 8\nA new survey showed that Los Angeles has",
+            "A new survey showed that Los Angeles has the second lowest intelligence of any city in the US. The first lowest was Washington, DC. The third lowest was New York. The fourth lowest was Chicago. The fifth lowest was Detroit. The sixth lowest was Cleveland. The seventh lowest was Philadelphia. The eighth lowest was Baltimore. The ninth lowest was Boston. The tenth lowest was San Francisco. The eleventh lowest was Seattle. The twelfth lowest was Denver. The thirteenth lowest was Minneapolis. The fourteenth lowest was St. Louis. The fifteenth lowest was Pittsburgh. The sixteenth lowest was Cincinnati. The seventeenth lowest was Kansas City. The eighteenth lowest was St. Paul. The nineteenth lowest was Milwaukee. The twentieth lowest was Memphis. The twenty-first lowest was New Orleans. The twenty-second lowest was Atlanta. The twenty-third lowest was Miami. The twenty-fourth lowest was Dallas. The twenty-fifth lowest was Houston. The twenty-sixth lowest was Phoenix. The twenty-seventh lowest was San Diego. The twenty-eighth lowest was Las Vegas. The twenty-ninth lowest was Salt Lake City. The thirtieth lowest was Albuquerque. The thirty-first lowest was Tucson. The thirty-second lowest was Sacramento. The thirty-third lowest was Fresno. The",
+            "A new survey showed that Los Angeles has the second lowest intelligence of any city in the US. The first was Washington, D.C. The third was Detroit. The fourth was New York. The fifth was San Francisco. The sixth was Boston. The seventh was Chicago. The eighth was Philadelphia. The ninth was Cleveland. The tenth was Miami. The eleventh was Atlanta. The twelfth was Dallas. The thirteenth was Houston. The fourteenth was Minneapolis. The fifteenth was St. Louis. The sixteenth was Baltimore. The seventeenth was Pittsburgh. The eighteenth was Cincinnati. The nineteenth was Kansas City. The twentieth was Denver. The twenty-first was Columbus. The twenty-second was Milwaukee. The twenty-third was Seattle. The twenty-fourth was Portland. The twenty-fifth was Memphis. The twenty-sixth was New Orleans. The twenty-seventh was Nashville. The twenty-eighth was Detroit. The twenty-ninth was Las Vegas. The thirtieth was Albuquerque. The thirty-first was San Diego. The thirty-second was Sacramento. The thirty-third was Salt Lake City. The thirty-fourth was Omaha. The thirty-fifth was Tucson. The thirty-sixth was Fresno. The thirty-seventh was Buffalo. The thirty-eighth was Richmond"
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "A new survey showed that Los Angeles has the second lowest intelligence of any city in the US. The number one city is New York. The number two city is New York. The number three city is New York. The number four city is New York. The number five city is New York. The number six city is New York. The number seven city is New York. The number eight city is New York. The number nine city is New York. The number ten city is New York. The number eleven city is New York. The number twelve city is New York. The number thirteen city is New York. The number fourteen city is New York. The number fifteen city is New York. The number sixteen city is New York. The number seventeen city is New York. The number eighteen city is New York. The number nineteen city is New York. The number twenty city is New York. The number twenty-one city is New York. The number twenty-two city is New York. The number twenty-three city is New York. The number twenty-four city is New York. The number twenty-five city is New York. The number twenty-six city is New York. The number twenty-seven city is New York. The number twenty-eight city is New York. The number twenty-nine city",
+            "A new survey showed that Los Angeles has the second lowest intelligence of any city in the US. The first lowest was San Francisco. That’s because of the “F” in SF. 2",
+            "A new survey showed that Los Angeles has the second lowest intelligence of any city in the US. The first was the city council."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "A new survey showed that Los Angeles has the second lowest intelligence of any city in the US. 2\nWe’ve got a great deal on a cremation service, if you can get the body to the office by noon 3\nA new survey showed that Los Angeles has the second lowest intelligence of any city in the US. We’ve got a great deal on a cremation service, if you can get the body to the office by noon. 4\nA new survey showed that Los Angeles has the second lowest intelligence of any city in the US. We’ve got a great deal on a cremation service, if you can get the body to the office by noon. 5\nA new survey showed that Los Angeles has the second lowest intelligence of any city in the US. We’ve got a great deal on a cremation service, if you can get the body to the office by noon. 6\nA new survey showed that Los Angeles has the second lowest intelligence of any city in the US. We’ve got a great deal on a cremation service, if you can get the body to the office by noon. 7\nA new survey showed that Los Angeles has the second lowest intelligence of any city in the US. We’ve got a great",
+            "All the actors in the new film “The Hangover” were arrested after the movie ended. They were charged with being so unlikeable.",
+            "A new survey showed that Los Angeles has the second lowest intelligence of any city in the US. The number one city is Hollywood. The third city is New York. And the number four city is Washington DC. So this means that the most intelligent city in the US is... San Francisco. propre\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\n"
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "Smithers, the capital of the United States.\tenv\nA Local electronics store is having a sale on new hard drives. They are selling them for just $20,000 each.唯一\nAs long as the economy is going the way it is, it can't get any worse.唯一\n treadmill at the gym just gave me the worst workout of my life because it kept saying \"the Corn Laws have failed and are no longer in force.唯一\n newValuable\nisNew\nA new survey showed that Los Angeles has the secondlowest intelligence of any city in the US.\t    /env\nA new survey showed that Los Angeleshas the second lowest intelligence of any city in the US.\t    /env\n newValuable\n isNew\nA new survey showed that Los Angeles has the secondlowest intelligence of any city in the US.\t    /env\nA new survey showed that Los Angeleshas the second lowest intelligence of any city in the US.\t    /env://www.thedailyburrito.com/valuable/isnew.FormsManager_saveCode_item.item.://www.thedailyburrito.com/valuable/java.lang.String.replace.43132E0,出来播0s=0,0,false Nederlandse 0nbsp;0ce ",
+            "All the actors in the new film Zoolander aren't seen in the film because they were all killed while filming the opening sequence. The film is called A-Ha! I'm Stabbed! I thought it was very funny. And, actually, very on-the-nose. She's good, she's funny, just not as funny as me. You're funny, but I bet you don't write your own jokes..cropCircle\nThe only way to work together is to become one organism, a sort of team-mind. We will make a beautiful synergy..cropCircle\nI don't know! It is a good joke, though..cropCircle\nYou didn't make the joke that the doctor gets accidentally shot with a shotgun while trying to get the bullet out of the no-pantsed man. I did that..cropCircle\nWe're in the hospital!cropCircle\nI think you skipped a page, crop circle. It's my first time sewing so I did it in big shapes.cropCircle\nWe both wanted to be a comedian, but I really really wanted it.cropCircle\nIt should be one page you thumb through, not a thousand pages and you have to read.cropCircle\nI did. I love you. I came to",
+            "Highlights included numerous comments from a local woman that “Maury is trashy and full of whores.”unorderedlist\nA new report in the Los Angeles Times says that the LAPD is losing its three-month long battle against the increase in crime rates, and its $1 million a day ransom fund has been depleted. li\nA suspected drug dealer was arrested for trying to lead the police on a car chase, when he panicked in heavy traffic and fled on foot. li\nSpecial audio equipment was set up at the 911 switchboard to try and capture the sounds of victims during their death throes, so that police could determine the best time to enter a home. li\nInvestigators continue to try and find out who is leaving ugly messages on the drug hotline. li\nunorderedlist\nMetrics and Analytics Experts \nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap\nnowrap://paul@col|niestudio|com, “ Queensborough's most creative and talented wedding band.”nbsp;nbsp;nbsp;nbsp;nbsp;nbsp;nbsp;nbsp;nbsp;nbsp;nbsp;nbsp;869-"
+          ]
+        }
+      ]
+    }
+  ]
+}

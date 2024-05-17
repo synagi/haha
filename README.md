@@ -5,10 +5,14 @@ Haha is an LLM finetune for generating punchlines to joke setups, as an experime
 ## Training Pipeline
 
 The Synagi training pipeline uses [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) and automatically deploys HuggingFace models with corresponding Weights & Biases data, using the configs and datasets merged to the main branch of this repo.
+
+### Links
 - [Model YAML Configs](https://github.com/synagi/haha/tree/main/train/config): Each config represent a set of hyperparameters for the Haha fintune
 - [Finetune Datasets](https://github.com/synagi/haha/tree/main/train/data): Data used for finetuning in Alpaca format
 - [HuggingFace models](https://huggingface.co/synagi): Trained models, using ChatML prompt format
 - [Weights & Biases data](https://wandb.ai/freegheist/haha?nw=nwuserfreegheist): Training results
+- [Eval configs](https://github.com/synagi/haha/tree/main/train/eval): Configs used for evaluating the trained models
+- [Results](https://github.com/synagi/haha/tree/main/train/results): Per-config results for evals on each model
 
 ### Configs
 Each config file in */train/config* represents a planned unique finetune of the base model, as a Lora or QLora.  
@@ -57,3 +61,77 @@ The dataset formats should be Alpaca, and are trained using the ChatML prompt fo
 ```
 {"instruction": "In a survey of 35 cities, Los Angeles ranked second to last in \"intelligence.\"", "output": "Residents of LA were outraged after the report was slowly explained to them.", "input": ""}
 ```
+
+### Eval
+
+Edit the */eval/eval.json* to define eval settings using the following sections:
+
+1. **`prompts`**: An array of strings, the joke setup prompts to test.
+
+2. **`settings`**: An array of objects, parameters for the inference, such as `temperature` (which influences the randomness of the model's responses).
+
+3. **`seedVariants`**: An integer, number of times prompts for a specific setting should be repeated with different seed numbers, starting at 1.
+
+#### Example
+
+```json
+{
+    "prompts": [
+        "It was 100 degrees today.",
+        "An iPad used by the Pope is being auctioned off for charity.",
+        ...
+    ],
+    "settings": [
+        { "temperature": 0.1 },
+        { "temperature": 0.3 },
+        ...
+    ],
+    "seedVariants": 3
+}
+```
+
+
+### Results
+
+Results for each config eval are stored as individual JSON files in the */results* folder, with the following structure:
+
+> Note: "default_system_message" value in the config YAML is used as the system prompt in that model's eval.
+
+1. **`config`**: The config name and its key settings used in the eval, including system prompt.
+2. **`settingsResults`**: An array of objects for each set of model settings tested against the prompt. Each object includes:
+   - **`temperature`**: Temperature setting used during inference
+   - **`completions`**: An array of the model's completions, in order of seed number starting at 1
+
+#### Example
+
+```json
+{
+  "config": {
+    "name": "haha-llama-3-8b-lora-001",
+    "default_system_message": "You are a creative and hilarious comedy writer that loves to craft jokes.",
+    "sequence_len": 64,
+    "num_epochs": 4,
+    "optimizer": "adamw_bnb_8bit",
+    "lr_scheduler": "cosine",
+    "learning_rate": 0.00005
+  },
+  "results": [
+    {
+      "prompt": "It was 100 degrees today.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "Response for seed 1",
+            "Response for seed 2",
+            "Response for seed 3"
+          ]
+        },
+        ...
+      ]
+    },
+    ...
+  ]
+}
+```
+

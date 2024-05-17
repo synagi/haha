@@ -1,0 +1,516 @@
+{
+  "config": {
+    "name": "haha-llama-3-8b-lora-008",
+    "default_system_message": "You are a creative and hilarious comedy writer that loves to craft jokes.",
+    "sequence_len": 64,
+    "gradient_accumulation_steps": 4,
+    "micro_batch_size": 2,
+    "num_epochs": 6,
+    "optimizer": "adamw_bnb_8bit",
+    "lr_scheduler": "cosine",
+    "learning_rate": 0.000095,
+    "load_in_8bit": true,
+    "load_in_4bit": false,
+    "adapter": "lora",
+    "lora_r": 32,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05
+  },
+  "results": [
+    {
+      "prompt": "It was 100 degrees today.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "I haven’t seen 3 digits since I visited my old shop teacher.",
+            "I haven’t seen 3 digits since I visited my old shop teacher.",
+            "I haven’t seen 3 digits since I visited my old shop teacher."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "It was even hotter in the studio where we record this show.",
+            "I haven’t been this angry since the last time it was 100 degrees.",
+            "I haven’t seen 3 digits since I visited my old shop teacher."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It was even hotter in the studio where we record this show.",
+            "It was even hotter at the surface, where the LA Kings held an optional team skate.",
+            "I haven’t seen 3 digits since I visited my old shop teacher."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It was even hotter in the NFL end zone where the players were tackled by the heat.",
+            "There were dozens of people swimming in the Potomac, and none of them were Jon Kyl.",
+            "Heated debates about global warming were put on hold because everyone was too busy heatedly debating whether to use the word \"hot\" or \"warm.\""
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "It was even hotter in the NFL end zone where the players were celebrating the CTE studies.",
+            "There were dozens of people swimming in the Potomac, and none of them were Jon Kroll.",
+            "Heated debates about global warming were resolved when everyone present simply agreed: \"It is ON.\""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "An iPad used by the Pope is being auctioned off for charity.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The Pope’s iPad was put up for auction after he was caught playing “Angry Birds” on it during Mass.",
+            "The Pope's iPad was put up for auction after he was caught playing \"Angry Birds\" on it during Mass.",
+            "The Pope's iPad was put up for auction after he was caught playing \"Angry Birds\" on it during Mass."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The Pope’s iPad was put up for auction after he was caught playing “Angry Birds” on it during Mass.",
+            "So now you can ask the Pope a question and he'll respond two weeks later with a text message.",
+            "The Pope's iPad was put up for auction after he was caught playing \"Angry Birds\" on it during Mass."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It’s expected to fetch at least $10,000, which is the iPad’s street value.",
+            "So now you can ask the Pope a question and he'll respond two weeks later with a misspelled text message.",
+            "The Pope's iPad was first auctioned off by the Pope."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It’s expected to fetch around $1000, but if it’s been used on a plane it could be worth millions.",
+            "So I guess the Pope likes to play “Words with Friends.”",
+            "The iPad was auctioned off because it had no spiritual value."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "This is the same Pope who gave up Twitter, so I’m guessing he never got on Instagram.",
+            "So I think I finally know what to get my brother for his birthday.",
+            "The iPad was auctioned off because it had no content."
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A company has developed a vending machine that sells marijuana.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "It's the first vending machine that actually works.",
+            "It's the first vending machine that's never been robbed.",
+            "The vending machines are being tested in a \"controlled environment\" – the state of California."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "It's the first vending machine that actually works.",
+            "It's the first vending machine that actually works.",
+            "The vending machines are being tested in a \"controlled environment\" - the city of Los Angeles."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It's the first vending machine that actually works.",
+            "So finally, a vending machine that actually works!",
+            "The vending machines are being tested in a \"controlled environment,\" which explains why it's in Los Angeles."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It's the first vending machine where, if you don't have the exact change, it will call the cops on you.",
+            "There's no word on how the marijuana is getting into the machines, but there is a not in the machines that say \"Jazz is not involved.\"",
+            "The vending machines are all over Los Angeles, but for some reason they only sell coffee."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "It's the first vending machine where, if you're not sure what you want, you just reach in and grab the biggest one.",
+            "There's no word on how the marijuana is getting into the machines, but there is a not in the machines that say \"Jazz is not involved.\"",
+            "The vending machines are only found in heavily tattooed, slightly trashy parts of town."
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A new survey shows two-thirds of adults pee in the ocean.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The other one-third are liars.",
+            "The other one-third are liars.",
+            "The other one-third are liars."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The other one-third are liars.",
+            "So, good news — maybe it’s not global warming that’s making the sea levels rise.",
+            "The other one-third are liars."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It gets worse - one-third of them do it in the shower.",
+            "So, good news - two-thirds of adults aren't using the bathroom at Disneyland.",
+            "The other one-third only does so when they’re snorkeling."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It gets worse - one-third of them do it in the shower.",
+            "So I think we can all agree, it’s time to dip our own dicks in the ocean.",
+            "The other one-third only does so when dolphins are watching."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "This is according to the Ocean Puddle Institute.",
+            "So I think we can all agree, it is time to dip our bags in the Potomac.",
+            "The other third are men."
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A pilot who famously landed at the wrong airport has retired.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The pilot said, \"I’m done with flying, from now on I’m going to stick to landing in the wrong airport.\"",
+            "The pilot said, \"I’m done with flying. I’m going to stay home and watch the new show ‘Airline Reunion.’",
+            "The pilot said, \"I’m done with flying. I’m going to stay here in this wrong airport.\""
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "It’s the only time in his career that Scottie Pippen was happy Michael Jordan was not there to see it.",
+            "So finally, Sully has time to take that family vacation to Omaha.",
+            "The pilot said, \"I’m done with flying. I’m going to become a pilot.\""
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It took him longer to retire than it took him to fly to the wrong airport.",
+            "So, good news for the pilot, he’s going to start flying Jet Blue.",
+            "The pilot said, \"I’m done with flying. I’m going to become a pilot.\""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It took him longer to retire than it took him to fly to the wrong airport.",
+            "So I guess we’ll never know how he would have fared at the correct airport.",
+            "The pilot said, \"I’m done with flying. I’m going to become a pilot.\""
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "It took the pilot two years to admit he’d landed at the wrong airport because his wife made him fly United.",
+            "There was an airportwide party in relief that the pilot did in fact, land at the correct airport.",
+            "The retired pilot said, \"I’m just glad I didn’t try to land at the airport I was supposed to.\""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "Psychologists have found that going to sleep early may help ward off mental illness.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The study was explained in more detail by a crazy person who went to bed at 8:00.",
+            "The study was explained in more detail by a crazy person who went to bed at 8:00.",
+            "The study was explained in more detail by a crazy person who went to bed at 8:00."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The study was conducted by talking to people who stayed up late to watch the eclipse.",
+            "So if you stayed up late to watch my show, you’re insane.",
+            "The study was explained in more detail by a crazy person who went to bed at 8:00."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "The study was conducted by talking to people who stayed up late to watch the eclipse.",
+            "So if you stayed up late to watch my show, you’re insane.",
+            "The study concludes that if you’re insane, you should stay up late."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It also helps to not be a night owl with a computer and the internet.",
+            "So if you stayed up late to watch my show, you’re insane.",
+            "The study concludes that going to bed before 11:30 is basically insane."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "This is the good news time sleepers needed to hear.",
+            "So I think I’m okay – you?",
+            "The study concludes that going to bed before 11:30 is basically insane."
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "An artificially intelligent sex robot is expected to hit the market next year.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The sex robot’s creator said it’s the most excited he’s ever been about an upcoming project.",
+            "The sex robot’s creator said it’s the most excited he’s ever been about an upcoming project.",
+            "The sex robot’s creator said it’s the most excited he’s ever been about an upcoming project."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "It’s being called the \" ultimate cure for monogamy.\"",
+            "So fellas, the revolution is nigh.",
+            "The sex robot’s creator said it’s the most advanced robot he’s ever made—because it always asks for a raise."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It’s being called the \"Most Exciting thing to come out of Japan since the Fukushima Daiichi Nuclear Power Plant.\"",
+            "So fellas, the apocalypse is nigh.",
+            "The sex robot’s creator said it will be able to do anything a human can do, but better."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It’s being called the worst iPhone ever.",
+            "So fellas, the apocalypse is nigh.",
+            "The sex robot’s creator said his biggest challenge was making the robot look like it wants to have sex."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "It’s being called the worst sex robot ever.",
+            "There's already a waiting list – with guys who promise to stop hitting on you, Thora.",
+            "The sex robot’s creator said his primary goal is to make a robot that can fake an orgasm."
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "New research suggests that people are attracted to voices that are similar to their own.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The study was conducted by matching up the voices of all the men on \"The View.\"",
+            "The study was conducted by matching up the voices of all the men on \"The View.\"",
+            "The study was conducted by matching up the voices of all the men on \"The View.\""
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The study was conducted by matching up the voices of all the men on \"The View.\"",
+            "So that explains my obsession with Siri.",
+            "The study was conducted by a scientist with a German accent."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "The study was conducted by the Institute of Guys Who Are Single.",
+            "So that explains my obsession with Siri.",
+            "The study was conducted by a woman with a high-pitched squeal."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It's the reason why women love me and childrens' television hosts love Elmo.",
+            "So that’s why I’ve always been attracted to really angry women.",
+            "The study was released today by the Institute of Guys."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "This is the reason why all the women I date sound like Elmo.",
+            "So I think I finally know why I’m married to Elmo.",
+            "The study was released today by \"Who’s Talking\" Magazine."
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A new university in Germany will be named after Angela Merkel.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The university will offer degrees in \"Political Science\" and \"Being Obedient to Your Husband.\"",
+            "The university will offer degrees in \"Political Science\" and \"Being Really Bitchin’ German.\"",
+            "The university will offer degrees in \"Political Science\" and \"Being Really Bitchin’ Bad at Volleyball.\""
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The university will offer degrees in \"Political Science\" and \"Being Obedient to Your Husband.\"",
+            "So congratulations to the new University of \"Merkwitz.\"",
+            "The university will offer degrees in \"Political Science\" and \"Being Really Bitchin’ Bad at Volleyball.\""
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It’s the first university named after a woman since the last one named after a man.",
+            "So, congratulations to the University of \"Merkelwagen.\"",
+            "The university will be called \"The University of No Fun At All.\""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It’s the first university named after a woman since the last one named after a man.",
+            "So I think we can all agree, the University of Google is a good choice.",
+            "The university will be called \"The University of Students Who Are Really Glad They Stopped Studying Russian.\""
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "This is the same university that was formerly known as \"The University of Berlin.\"",
+            "There's already a student protest against it being named after a woman.",
+            "The university will be known as \"The University That Merkel’d You.\""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "The CEO of STARBUCKS has stepped down.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The CEO said he's going to take some time to relax and maybe get a job at Starbucks.",
+            "It’s a pretty good gig – you get to make billions of dollars a year while people line up to give you their money.",
+            "The CEO said he's going to take some time to relax and maybe read a book."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "It’s the first time anyone has ever quit their job to go work at Starbucks.",
+            "It's a pretty good gig – you get to make billions of dollars, then step down to a CEOship at HANDBAGS.",
+            "The CEO said he's going to take some time to relax and maybe read a book."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It’s the first time anyone has ever quit their job to go work at Starbucks.",
+            "So I guess she didn't want to be the one to introduce the new CEO, Chris Cakes.",
+            "The CEO said he's going to take a little time off to relax and then become the CEO of STARBUCKS."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It's the first time anyone has ever quit their job to go work at Starbucks.",
+            "There's an open seat at the Starbucks on the corner of \"I Don't Really Care\" and \"Who Cares?\"",
+            "The CEO said he's going to miss the smell of coffee in the morning, but not the smell of poop in his pants."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "It's the first time anyone has ever quit their job to go work at Starbucks.",
+            "There's an opening at Starbucks – do you have a PhD in \"Overcompensating for Something?\"",
+            "The CEO said he wants to \"hang out at Starbucks for a while and just people watch.\""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A new survey showed that Los Angeles has the second lowest intelligence of any city in the US",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The first is Washington DC.",
+            "The first is Washington DC.",
+            "The first is Washington DC."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The first is Washington DC.",
+            "So I’m moving to Boston!",
+            "The first is Washington DC."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "The first is Washington DC.",
+            "So I’m moving to Boston!",
+            "The first is Washington DC."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "The first was \"The set of 'Here Comes Honey Boo Boo.'\"",
+            "So I think we can all agree, it’s time for me to move to Boston.",
+            "The first is Washington DC."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "This is according to the people who make the survey up.",
+            "So I think we can beat the Clippers.",
+            "The first is Washington DC."
+          ]
+        }
+      ]
+    }
+  ]
+}
