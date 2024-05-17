@@ -1,5 +1,5 @@
 {
-    "setups":[
+    "prompts":[
         "It was 100 degrees today.",
         "An iPad used by the Pope is being auctioned off for charity.",
         "A company has developed a vending machine that sells marijuana.",
@@ -9,6 +9,25 @@
         "An artificially intelligent sex robot is expected to hit the market next year.",
         "New research suggests that people are attracted to voices that are similar to their own.",
         "A new university in Germany will be named after Angela Merkel.",
-        "The CEO of STARBUCKS has stepped down."
-    ]
+        "The CEO of STARBUCKS has stepped down.",
+        "A new survey showed that Los Angeles has the second lowest intelligence of any city in the US"
+    ],
+    "settings": [
+        {
+            "temperature": 0.1
+        },
+        {
+            "temperature": 0.3
+        },        
+        {
+            "temperature": 0.5
+        },
+        {
+            "temperature": 0.7
+        },      
+        {
+            "temperature": 0.9
+        }
+    ],
+    "seedVariants": 3
 }

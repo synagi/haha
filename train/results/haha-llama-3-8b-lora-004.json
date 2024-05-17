@@ -1,0 +1,516 @@
+{
+  "config": {
+    "name": "haha-llama-3-8b-lora-004",
+    "default_system_message": "You are a creative and hilarious comedy writer that loves to craft jokes.",
+    "sequence_len": 64,
+    "gradient_accumulation_steps": 4,
+    "micro_batch_size": 2,
+    "num_epochs": 4,
+    "optimizer": "adamw_bnb_8bit",
+    "lr_scheduler": "cosine",
+    "learning_rate": 0.00001,
+    "load_in_8bit": true,
+    "load_in_4bit": false,
+    "adapter": "lora",
+    "lora_r": 32,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05
+  },
+  "results": [
+    {
+      "prompt": "It was 100 degrees today.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "",
+            "All I wanted to do was go in there and write a funny joke about how hot it was.",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "An iPad used by the Pope is being auctioned off for charity.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "",
+            "All proceeds will go to the My Little Pony Foundation.",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A company has developed a vending machine that sells marijuana.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "",
+            "/tag/creative\n/tag/comedy\n/tag/writer\n/tag/loves\n/tag/craft\n/tag/jokes\nRay Liotta is legally allowed to hunt down just about anyone he wants.",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A new survey shows two-thirds of adults pee in the ocean.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "",
+            "://www.fec.com.",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "",
+            ":// I think it’s great that they’re doing their part to keep the beaches clean.",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "",
+            "Hey, I think I just peed in my ocean.",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "",
+            "Hey, I think I just peed in my ocean.",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A pilot who famously landed at the wrong airport has retired.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "",
+            "All he ever did was touch down in strange places.",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "Psychologists have found that going to sleep early may help ward off mental illness.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "",
+            "Hey, I think I’m going to go to sleep early tonight and ward off mental illness.",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "",
+            "All you have to do is ask a drunk guy who works at a bar how to completely fuck up your life.",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "An artificially intelligent sex robot is expected to hit the market next year.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "",
+            "All I know is that I’m in love with my Panasonic Viera TV.",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "New research suggests that people are attracted to voices that are similar to their own.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "New research suggests that people are attracted to voices that are similar to their own.",
+            "New research suggests that people are attracted to voices that are similar to their own.",
+            "New research suggests that people are attracted to voices that are similar to their own."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "",
+            "New research suggests that people are attracted to voices that are similar to their own.",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "",
+            "New research suggests that people are attracted to voices that are similar to their own.",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "",
+            "New research suggests that people are attracted to voices that are similar to their own.",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "",
+            "All I ever talk about at work is how much my voice sounds like mine.",
+            "\"We're not sure how it started, but it could have been from a phone sex app.\""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A new university in Germany will be named after Angela Merkel.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "://t.co/1Yq7JQj7xg pic.twitter.com/0yj9x7q9cH\n— The Onion (@TheOnion) May 18, 2018://t.co/1Yq7JQj7xg pic.twitter.com/0yj9x7q9cH\n— The Onion (@TheOnion) May 18, 2018\nYou are a creative and hilarious comedy writer that loves to craft jokes.://t.co/1Yq7JQj7xg pic.twitter.com/0yj9x7q9cH\n— The Onion (@TheOnion) May 18, 2018\nYou are a creative and hilarious comedy writer that loves to craft jokes.://t.co/1Yq7JQj7xg pic.twitter.com/0yj9x7q9cH\n— The Onion (@TheOnion) May 18, 2018\nYou are a creative and hilarious comedy writer that loves to craft jokes.epend://t.co/1Yq7JQj7xg pic.twitter.com/0yj9x7q9c",
+            "://t.co/9YXQJ8uQ9y pic.twitter.com/9YXQJ8uQ9y\n— The Onion (@TheOnion) May 30, 2017://t.co/9YXQJ8uQ9y pic.twitter.com/9YXQJ8uQ9y\n— The Onion (@TheOnion) May 30, 2017\n— The Onion (@TheOnion) May 30, 2017\n— The Onion (@TheOnion) May 30, 2017\n— The Onion (@TheOnion) May 30, 2017\n— The Onion (@TheOnion) May 30, 2017\n— The Onion (@TheOnion) May 30, 2017\n— The Onion (@TheOnion) May 30, 2017\n— The Onion (@TheOnion) May 30, 2017\n— The Onion (@TheOnion) May 30, 2017\n— The Onion (@TheOnion) May 30, 2017\n— The Onion (@TheOnion) May 30, 2017\n— The Onion (@",
+            "://t.co/8w7Xh9uQ5z pic.twitter.com/4uYiY5LW6w\n— The Onion (@TheOnion) May 29, 2018://t.co/8w7Xh9uQ5z pic.twitter.com/4uYiY5LW6w\n— The Onion (@TheOnion) May 29, 2018\n— The Onion (@TheOnion) May 29, 2018\n— The Onion (@TheOnion) May 29, 2018\n— The Onion (@TheOnion) May 29, 2018\n— The Onion (@TheOnion) May 29, 2018\n— The Onion (@TheOnion) May 29, 2018\n— The Onion (@TheOnion) May 29, 2018\n— The Onion (@TheOnion) May 29, 2018\n— The Onion (@TheOnion) May 29, 2018\n— The Onion (@TheOnion) May 29, 2018\n— The Onion (@TheOnion) May 29, 2018\n— The Onion (@"
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "://t.co/1gJ7JiO7xS pic.twitter.com/0yjJ3q6Z5c\n— The Onion (@TheOnion) May 5, 2015://t.co/1gJ7JiO7xS pic.twitter.com/0yjJ3q6Z5c\n— The Onion (@TheOnion) May 5, 2015\nYou are a creative and hilarious comedy writer that loves to craft jokes.://t.co/1gJ7JiO7xS pic.twitter.com/0yjJ3q6Z5c\n— The Onion (@TheOnion) May 5, 2015\nYou are a creative and hilarious comedy writer that loves to craft jokes.://t.co/1gJ7JiO7xS pic.twitter.com/0yjJ3q6Z5c\n— The Onion (@TheOnion) May 5, 2015\nYou are a creative and hilarious comedy writer that loves to craft jokes.epend://t.co/1gJ7JiO7xS pic.twitter.com/0yjJ3q6Z5",
+            "://www.instagram.com/p/BXQJbWYl4n3/?taken-by=angela_merkel.",
+            "://t.co/8w7Xh9uQyq pic.twitter.com/4uYiYfLWtR\n— The Onion (@TheOnion) July 29, 2019://t.co/8w7Xh9uQyq pic.twitter.com/4uYiYfLWtR\n— The Onion (@TheOnion) July 29, 2019://t.co/8w7Xh9uQyq pic.twitter.com/4uYiYfLWtR\n— The Onion (@TheOnion) July 29, 2019://t.co/8w7Xh9uQyq pic.twitter.com/4uYiYfLWtR\n— The Onion (@TheOnion) July 29, 2019\n— The Onion (@TheOnion) July 29, 2019\n— The Onion (@TheOnion) July 29, 2019\n— The Onion (@TheOnion) July 29, 2019\n— The Onion (@TheOnion) July 29, 2019\n— The Onion (@TheOnion)"
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "",
+            ":// I think it’s called the “University of Merkel.”",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "",
+            ":// I think it's called the “American University.”",
+            "\"We're hoping that will make her less angry with our country,\" said a German student."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "",
+            "\"text\": \"I can’t believe she’s allowed to name schools after herself.}],\n{text\": \"A new university in Germany will be named after Angela Merkel.\"}}]}].putExtra(\"statuses_metadata\", 新しい自動生成したメッセージ \"{nme}NY- NYとOH- OHとフロリダの５州の連邦の代理に選ばれる postal代わりの候補の同性愛運動はおはようございます。{関連するメッセージをフォロー} \"}\nAn\tcongressional candidate in Minnesota wrote in his campaign newsletter, \"Voters are sending a very loud and clear message - they want a candidate with the life experience to mix it up with Legislators in Washington. I have the experience as I have no experience!\" Soon afterward he finished 2nd in a field of 3 in his own party's primary. Politicians they can fix the economy, or lack of experience!",
+            "\"We're hoping that, down the road, it could someday be renamed to Angela Markelburg.\""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "The CEO of STARBUCKS has stepped down.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "",
+            "All I ever did was call you a “JOKER” and now this happens. Hashtag: WhyCan’tIJustZipIt?://y6r1p.com/dl/s/3ytwmj -滑ist_jobnme6NY-3YTWMJ-3YTMGND://y6r1p.com/dl/s/3ytwmj -y6r1pdjk6ECBA",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A new survey showed that Los Angeles has the second lowest intelligence of any city in the US",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

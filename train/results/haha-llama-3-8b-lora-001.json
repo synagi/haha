@@ -1,0 +1,516 @@
+{
+  "config": {
+    "name": "haha-llama-3-8b-lora-001",
+    "default_system_message": "You are a creative and hilarious comedy writer that loves to craft jokes.",
+    "sequence_len": 64,
+    "gradient_accumulation_steps": 4,
+    "micro_batch_size": 2,
+    "num_epochs": 4,
+    "optimizer": "adamw_bnb_8bit",
+    "lr_scheduler": "cosine",
+    "learning_rate": 0.0001,
+    "load_in_8bit": true,
+    "load_in_4bit": false,
+    "adapter": "lora",
+    "lora_r": 32,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05
+  },
+  "results": [
+    {
+      "prompt": "It was 100 degrees today.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "I’m sorry, I meant 90.",
+            "I don’t know about you but I’m ready for Spring.",
+            "I’m sorry, I meant 90 degrees."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "I’ve had it with this heat. I’m moving to the tundra.",
+            "I don’t know about you but I’m ready for Spring.",
+            "I’m sorry, I meant 90 degrees."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It was 100 degrees today.",
+            "I don’t know about you but I’m ready for Spring.",
+            "I’m sorry, but I just don’t see the point of celebrating \"Conan O'Brien Day.\""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It was 100 degrees today.",
+            "There I fixed it.",
+            "I’m sorry, but I’m not moving to Portland."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "It was 100 degrees today.",
+            "There I did it again.",
+            "I give my hat a rest in between innings."
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "An iPad used by the Pope is being auctioned off for charity.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The Pope’s iPad is being sold on eBay because he’s going to switch to a Samsung.",
+            "The iPad was found in Pope Francis' backpack.",
+            "The iPad was found in the Pope’s Vatican apartment, under a pile of pornography."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auctioned off for charity. The Pope’s iPad is being auction",
+            "It’s a 16 gigabyte iPad with the Pope’s favorite app, “iCelibate.”",
+            "The iPad was found in the Pope’s Vatican Hotel room."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It’s the first Pope iPad.",
+            "It's a 16 gigabyte, 3G, iPad with a Vatican City plan.",
+            "The iPad was found in the Pope’s Vatican Office. The hard drive was full of pictures of naked women and the word \"Google.\""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It’s the first Pope iPad.",
+            "There's an opening at MySpace, too.",
+            "The iPad was found in the Pope's Vatican Office. The hard drive was full of pictures of naked women and the score of last night's game."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "This is the first known case of an iPad user developing a need for charity.",
+            "There's an icon on the back of it that says, \"This Pope Probably a Virgin.\"",
+            "The iPad was found in the Pope's Vatican Office. In his defense, the Pope said, \"I was just checking it out.\""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A company has developed a vending machine that sells marijuana.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The vending machine is doing so well, it’s been promoted to manager.",
+            "The vending machine is doing great, but the company is having trouble finding a janitor.",
+            "The vending machine is doing great, but the company is having trouble finding someone to stock it."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The vending machine is doing so well, it’s been promoted to manager of the company.",
+            "The vending machine is doing great, but the company is having trouble finding a janitor.",
+            "The vending machine is a huge hit with people who smoke marijuana."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It's the first vending machine where the customer is always high.",
+            "It's called the \"I Can't Believe It's Not Pot\" machine.",
+            "The vending machine is a huge hit with stoners looking for a place to sit down."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It's the first machine ever to sell two different things.",
+            "So I guess the recession is over.",
+            "The vending machine is a huge hit with stoners looking for a place to sit down."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "This amazing new invention is called the \"I-5ive-5ive.\"",
+            "There's no need to ask a stranger for change when you can ask a stranger for marijuana.",
+            "The vending machine is a huge hit, with guys named \"Chill$money.\""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A new survey shows two-thirds of adults pee in the ocean.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The survey was conducted by the Institute of No Shit.",
+            "The remaining one-third are called \"polite people.\"",
+            "The remaining one-third are called \"polite people.\""
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The survey was conducted by the Institute of No Shit.",
+            "The other third are called \"polite.\"",
+            "The remaining one-third are called \"polite.\""
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It's the same two-thirds who eat at McDonald's.",
+            "So I guess I’m not in the majority.",
+            "The remaining one-third pee in the toilet."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It's the same percentage who pee in the shower.",
+            "So I think we can all agree, it is time to stop taking baths.",
+            "The remaining one-third, known as \"The Tea Party,\" pee in their own backyards."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "This is the same percentage who apparently still eat at Denny's.",
+            "There's no need to ask the other third because they're all in the shallows.",
+            "The remaining one-third, entitled \"Who Cares\" pee in their bathtubs."
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A pilot who famously landed at the wrong airport has retired.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The pilot, Charles Sully, said he’s looking forward to a quiet retirement with his wife, Barbara No-Passenger.",
+            "The pilot, known only as \"Captain Wrongway,\" said he plans to spend his retirement flying his own plane.",
+            "The pilot, Charles S. Dutton, said he’s looking forward to a quiet retirement with his wife and two kids."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The pilot, known only as “Captain Obvious” was known for his habit of landing at the wrong airport.",
+            "The pilot, known only as \"Captain Wrong,\" said he’s looking forward to a quiet retirement in the Florida Keys.",
+            "The pilot, Charles S. Dutton, said he’s looking forward to spending his retirement on a cruise ship with Hervé."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It’s the same airport where I retired.",
+            "It's been a difficult year for retired pilots.",
+            "The pilot, Charles O’Brien, was known for landing his plane at the wrong airport due to his severe stutter."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It's the same airport where Orville Wright made his first landing.",
+            "There's an airport named after me in Portland, but it's only good for landing on.",
+            "The retired pilot, known only as \"The Wrong Guy,\" said he is going to spend his retirement days golfing, and landing at the right airport."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "This is the last post for David Langfitt, a pilot who famously landed at the wrong airport.",
+            "There I was, at 70, thinking my flying days were over, when the call came in.",
+            "The last thing he wants people to read about him is a \"memorial.\""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "Psychologists have found that going to sleep early may help ward off mental illness.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The study was conducted by people who stayed up late to watch \"Conan.\"",
+            "The study was conducted by people who work the night shift at a mental hospital.",
+            "The study was conducted by people who stayed up late to watch \"Conan.\""
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The study was conducted by people who stayed up late to watch \"Conan.\"",
+            "The study was conducted at 2am.",
+            "The study was conducted by people who’ve never had a good night’s sleep."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It's the same reason they feed the insane cookies late at night.",
+            "So I’m trying to ward off a lobotomy.",
+            "The study was conducted by people who are sick of you."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It's the same reason they feed fresh eggs to the inmates of insane asylums.",
+            "So I think I’ll stick to my 11:00 show.",
+            "The study concludes, \"So maybe it’s not such a bad idea after all.\""
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "This is the last post of 2009. But don’t worry, we’ll be back January 4 with a New Year’s Eve guest post by TBS.",
+            "There's an Institute at University in California devoted to that, and its name is the Cherridan Hilton.",
+            "The study concludes, \"Since we are conducting this study in the middle of the night, we can only assume the researchers are insane.\""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "An artificially intelligent sex robot is expected to hit the market next year.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "I was created by a mad scientist in a lab in the mountains of Transylvania.",
+            "I was created by a mad scientist in a lab in the mountains of Transylvania.",
+            "The sex robot is being marketed as \"The Girlfriend Who Never Says No.\""
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "It’s the same guy who wrote the \"iMac\" and the \"iPhone.\"",
+            "I was created in a lab in the mountains of Afghanistan, and then I was downloaded into a computer.",
+            "The sex robot is being marketed as \"The Girlfriend Who Never Says No.\""
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It's the same story every year – I start out as an \"innovative sex robot,\" then I'm downgraded to \"advanced sex robot,\" and finally I'm just some \"damn good sex robot.\"",
+            "It's part of the new \"Artificially Intelligent Sex Robot\" line from the company that brought you Siri and Alexa.",
+            "The sex robot is being marketed as \"The Girlfriend You Never Knew You Wanted.\""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It's the same story every year – a new, smarter, sexier robot coming out in January.",
+            "There's an even chance you're reading this on a phone.",
+            "The sex robot will be called \"Who Cares\" because \"I Feel It\" was taken."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "It's the same story every year – My head keeps getting replaced by somebody newer and younger.",
+            "There's an even chance you just mainlined my entire brain.",
+            "The last thing I want is to be a comedy writer."
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "New research suggests that people are attracted to voices that are similar to their own.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The study was conducted by me.",
+            "The study was conducted by me.",
+            "The study was conducted by me."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The study was conducted by me.",
+            "The study was conducted by me in my lab.",
+            "The study was conducted by me."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "The study was conducted by the University of Rhode Island.",
+            "So I guess I won't be getting a date anytime soon.",
+            "The study was conducted by me."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It's the same reason I was picked to be Conan O'Brien's opening act.",
+            "So I think I’m on the right track.",
+            "The study was conducted by me."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "This is the cutting edge of science.",
+            "There's a reason I don't do my kid's confirmations.",
+            "The study concludes, \"Which is why you're all listening to me.\""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A new university in Germany will be named after Angela Merkel.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The university will be called the University of Things That Could Go Wrong.",
+            "The university will be called \"The University of Things Could Go Either Way.\"",
+            "The university will be called the University of Things That Could Go Wrong."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The university will be called the University of \"Meh.\"",
+            "The university will be called \"The University of Things Could Go Either Way.\"",
+            "The university will be called the University of Things That Could Go Wrong."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It will be called, \"The University of No Fun.\"",
+            "So I guess she won't be missed.",
+            "The university will be known as \"The University That Merkel Named After Angela.\""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It will be called, \"The University of Miseducation.\"",
+            "So I guess she won't be missed.",
+            "The university will be known as \"The University That Merkel Named After Angela.\""
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "This is the first university to be named after a Chancellor who had the support of the Tea Party.",
+            "There's talk of a film school, a dance school, and possibly a beer school.",
+            "The university, which will be called \"The University of Things Could Go Wrong in an Instant,\" will be the country's first \"University of-multiversity.\""
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "The CEO of STARBUCKS has stepped down.",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The CEO of Starbucks has stepped down. He said he wants to spend more time at Starbucks.",
+            "I don’t know about you, but I’m going to miss him.",
+            "The CEO of Starbucks has stepped down. He said he wants to spend more time at Starbucks."
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The CEO of Starbucks has stepped down. He said he wants to spend more time at Starbucks.",
+            "I don’t know about you, but I’m going to miss him.",
+            "The CEO of Starbucks has stepped down. He said he wants to spend more time at Starbucks."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "It’s being called a \"bold move\" by the coffee industry.",
+            "It's being reported that the CEO of Starbucks is stepping down and taking a job at a local coffee shop.",
+            "The CEO of Starbucks has stepped down. He’s going to be a barista for a while so he can reconnect with his \"inner coffee.\""
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It's the first coffee chain in history to go from \"bottoms up\" to \"tops down.\"",
+            "There's an opening at Starbucks now, but the CEO position at Apple is still available.",
+            "The CEO of Starbucks has stepped down. He’s going to be a barista."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "This is the official announcement from the CEO himself, \"A sip of something hot never hurt anybody.\"",
+            "There's talk of a scandal in the coffee aisle.",
+            "The CEO of Starbucks has stepped down. Replacing him is someone with actual business experience: The CEO of Starbucks."
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A new survey showed that Los Angeles has the second lowest intelligence of any city in the US",
+      "settingsResults": [
+        {
+          "temperature": 0.1,
+          "completions": [
+            "The first being \"San Francisco.\"",
+            "The first being \"San Francisco.\"",
+            "The first being \"San Francisco.\""
+          ]
+        },
+        {
+          "temperature": 0.3,
+          "completions": [
+            "The first being \"San Francisco.\"",
+            "The first being \"Madison, Wisconsin.\"",
+            "The first being Madison, Wisconsin."
+          ]
+        },
+        {
+          "temperature": 0.5,
+          "completions": [
+            "The first being Baltimore.",
+            "So I guess I was wrong.",
+            "The first being Madison, Wisconsin."
+          ]
+        },
+        {
+          "temperature": 0.7,
+          "completions": [
+            "It was the worst in the country until two hours ago.",
+            "So I guess I was wrong in my earlier joke.",
+            "The first? Madison, Wisconsin."
+          ]
+        },
+        {
+          "temperature": 0.9,
+          "completions": [
+            "This is the worst kept secret in Los Angeles.",
+            "So I think we're back in first.",
+            "The first? Madison, Wisconsin."
+          ]
+        }
+      ]
+    }
+  ]
+}
